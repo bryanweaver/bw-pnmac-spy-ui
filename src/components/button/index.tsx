@@ -9,7 +9,7 @@ const ActionButton = () => {
       className="btn btn-lg btn-dark mt-5"
       onClick={() => dispatch(fetchSpy())}
     >
-      I do something
+      Next Asset
     </button>
   );
 };

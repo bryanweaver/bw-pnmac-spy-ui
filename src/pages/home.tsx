@@ -2,10 +2,16 @@ import ActionButton from "../components/button";
 import SpyDetails from "../components/details";
 import SpyAvatar from "../components/avatar";
 import Map from "../components/map";
+import CSS from "csstype";
+
+const style: CSS.Properties = {
+  backgroundColor: "black",
+  color: "white"
+};
 
 const HomePage = () => {
   return (
-    <div className="container h-100">
+    <div style={style} className="container h-100 font-monospace">
       <ActionButton />
       <div className="d-flex">
         <div className="p-2">

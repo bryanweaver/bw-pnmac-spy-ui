@@ -1,5 +1,5 @@
 const ActionButton = () => {
-  return <button>I do something</button>;
+  return <button className="btn btn-lg btn-dark">I do something</button>;
 };
 
 export default ActionButton;

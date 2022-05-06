@@ -11,9 +11,9 @@ const style: CSS.Properties = {
 
 const HomePage = () => {
   return (
-    <div style={style} className="container h-100 font-monospace">
+    <div style={style} className="container font-monospace">
       <ActionButton />
-      <div className="d-flex">
+      <div className="d-flex justify-content-around">
         <div className="p-2">
           <SpyAvatar />
         </div>

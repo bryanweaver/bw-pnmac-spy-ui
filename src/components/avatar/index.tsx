@@ -8,10 +8,10 @@ const style: CSS.Properties = {
 
 const Avatar = () => {
   return (
-    <React.Fragment>
+    <div className="position-relative top-50">
       <div style={style}>Avatar image</div>
       <div>codename</div>
-    </React.Fragment>
+    </div>
   );
 };
 

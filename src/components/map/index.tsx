@@ -1,5 +1,11 @@
+import earth from "../../assets/earth.gif";
+
 const Map = () => {
-  return <div>I'm a map, or something</div>;
+  return (
+    <div>
+      <img src={earth} alt="i'm the earth" />
+    </div>
+  );
 };
 
 export default Map;

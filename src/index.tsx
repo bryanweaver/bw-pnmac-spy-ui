@@ -1,9 +1,11 @@
-import { StrictMode } from "react";
-import * as ReactDOMClient from "react-dom/client";
+import React from "react"
+import ReactDOM from "react-dom/client"
 
-import App from "./App";
+import App from "./App"
 
-const rootElement = document.getElementById("root");
-const root = ReactDOMClient.createRoot(rootElement);
+const rootElement = document.getElementById("root")
+if (rootElement == null) throw new Error("WRONG")
 
-root.render(<App />);
+const root = ReactDOM.createRoot(rootElement)
+
+root.render(<App />)
